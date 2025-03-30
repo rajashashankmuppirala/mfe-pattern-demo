@@ -1,0 +1,10 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "types": ["cypress"],
+    "strict": false
+  },
+  "files": [
+    "./component/step-definitions/About.ts"
+  ]
+}
