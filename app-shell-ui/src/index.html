@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>AppShellUi</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <meta name="importmap-type" content="systemjs-importmap">
+
+  <script type="systemjs-importmap">
+    {
+     "imports": {
+        "single-spa": "app:single-spa",
+        "single-spa-angular": "app:single-spa-angular",
+        "single-spa-angular/internals": "app:single-spa-angular/internals",
+        "@angular/common": "app:@angular/common",
+        "@angular/core": "app:@angular/core",
+        "@angular/router": "app:@angular/router",
+        "@angular/platform-browser-dynamic": "app:@angular/platform-browser-dynamic",
+        "@angular/platform-browser": "app:@angular/platform-browser",
+        "rxjs": "app:rxjs",
+        "react": "app:react",
+        "react-dom": "app:react-dom",
+        "react-dom/client": "app:react-dom/client"
+     }
+    }
+
+  </script>
+
+</head>
+<body>
+  <app-root></app-root>
+</body>
+</html>
